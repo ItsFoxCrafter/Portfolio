@@ -53,3 +53,194 @@
   font-family: 'JetBrains Mono';
   font-weight: 900;
 }
+
+
+/*COLOR SCHEMES*/
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-50: #fce8ed;
+    --text-100: #fad1db;
+    --text-200: #f5a3b8;
+    --text-300: #f07594;
+    --text-400: #eb4770;
+    --text-500: #e6194c;
+    --text-600: #b8143d;
+    --text-700: #8a0f2e;
+    --text-800: #5c0a1f;
+    --text-900: #2e050f;
+    --text-950: #170308;
+
+    --background-50: #fce8ed;
+    --background-100: #fad1db;
+    --background-200: #f5a3b8;
+    --background-300: #f07594;
+    --background-400: #eb4770;
+    --background-500: #e6194c;
+    --background-600: #b8143d;
+    --background-700: #8a0f2e;
+    --background-800: #5c0a1f;
+    --background-900: #2e050f;
+    --background-950: #170308;
+
+    --primary-50: #fde7ed;
+    --primary-100: #fbd0db;
+    --primary-200: #f8a0b6;
+    --primary-300: #f47192;
+    --primary-400: #f1416d;
+    --primary-500: #ed1249;
+    --primary-600: #be0e3a;
+    --primary-700: #8e0b2c;
+    --primary-800: #5f071d;
+    --primary-900: #2f040f;
+    --primary-950: #180207;
+
+    --secondary-50: #fdf6e7;
+    --secondary-100: #fbecd0;
+    --secondary-200: #f8d9a0;
+    --secondary-300: #f4c671;
+    --secondary-400: #f1b341;
+    --secondary-500: #eda012;
+    --secondary-600: #be800e;
+    --secondary-700: #8e600b;
+    --secondary-800: #5f4007;
+    --secondary-900: #2f2004;
+    --secondary-950: #181002;
+
+    --accent-50: #fdfce7;
+    --accent-100: #fbf9d0;
+    --accent-200: #f8f2a0;
+    --accent-300: #f4ec71;
+    --accent-400: #f1e541;
+    --accent-500: #eddf12;
+    --accent-600: #beb20e;
+    --accent-700: #8e860b;
+    --accent-800: #5f5907;
+    --accent-900: #2f2d04;
+    --accent-950: #181602;
+
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-50: #170308;
+    --text-100: #2e050f;
+    --text-200: #5c0a1f;
+    --text-300: #8a0f2e;
+    --text-400: #b8143d;
+    --text-500: #e6194c;
+    --text-600: #eb4770;
+    --text-700: #f07594;
+    --text-800: #f5a3b8;
+    --text-900: #fad1db;
+    --text-950: #fce8ed;
+
+    --background-50: #170308;
+    --background-100: #2e050f;
+    --background-200: #5c0a1f;
+    --background-300: #8a0f2e;
+    --background-400: #b8143d;
+    --background-500: #e6194c;
+    --background-600: #eb4770;
+    --background-700: #f07594;
+    --background-800: #f5a3b8;
+    --background-900: #fad1db;
+    --background-950: #fce8ed;
+
+    --primary-50: #180207;
+    --primary-100: #2f040f;
+    --primary-200: #5f071d;
+    --primary-300: #8e0b2c;
+    --primary-400: #be0e3a;
+    --primary-500: #ed1249;
+    --primary-600: #f1416d;
+    --primary-700: #f47192;
+    --primary-800: #f8a0b6;
+    --primary-900: #fbd0db;
+    --primary-950: #fde7ed;
+
+    --secondary-50: #181002;
+    --secondary-100: #2f2004;
+    --secondary-200: #5f4007;
+    --secondary-300: #8e600b;
+    --secondary-400: #be800e;
+    --secondary-500: #eda012;
+    --secondary-600: #f1b341;
+    --secondary-700: #f4c671;
+    --secondary-800: #f8d9a0;
+    --secondary-900: #fbecd0;
+    --secondary-950: #fdf6e7;
+
+    --accent-50: #181602;
+    --accent-100: #2f2d04;
+    --accent-200: #5f5907;
+    --accent-300: #8e860b;
+    --accent-400: #beb20e;
+    --accent-500: #eddf12;
+    --accent-600: #f1e541;
+    --accent-700: #f4ec71;
+    --accent-800: #f8f2a0;
+    --accent-900: #fbf9d0;
+    --accent-950: #fdfce7;
+
+  }
+}
+
+/* GRADIENTS */
+
+:root {
+  --linearPrimarySecondary: linear-gradient(#ee2054, #f5c875);
+  --linearPrimaryAccent: linear-gradient(70deg, #ee2054 30%, #f2e750 60%);
+  --linearSecondaryAccent: linear-gradient(#f5c875, #f2e750);
+  --radialPrimarySecondary: radial-gradient(#ee2054, #f5c875);
+  --radialPrimaryAccent: radial-gradient(#ee2054, #f2e750);
+  --radialSecondaryAccent: radial-gradient(#f5c875, #f2e750);
+
+}
+
+
+::selection {
+  color: var(--text-50);
+  background: var(--primary-500);
+}
+
+body {
+  background-color: var(--background-50);
+  color: var(--text-950);
+  cursor: default;
+}
+
+#welcomeSection {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcomeSection h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+
+  background: var(--linearPrimaryAccent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#welcomeSection h2 {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 0px;
+  animation-name: nameHighlight;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+@keyframes nameHighlight {
+  to{
+    background-color: var(--primary-500);
+    color: var(--text-50);
+  }
+}
