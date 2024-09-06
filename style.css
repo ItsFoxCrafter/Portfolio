@@ -1,0 +1,55 @@
+/* JETBRAINS FONT UNIQUFIER */
+
+/* Thin */
+.jetbrains-mono-thin {
+  font-family: 'JetBrains Mono';
+  font-weight: 100;
+}
+
+/* Extra Light */
+.jetbrains-mono-extra-light {
+  font-family: 'JetBrains Mono';
+  font-weight: 200;
+}
+
+/* Light */
+.jetbrains-mono-light {
+  font-family: 'JetBrains Mono';
+  font-weight: 300;
+}
+
+/* Regular (default) */
+.jetbrains-mono-regular {
+  font-family: 'JetBrains Mono';
+  font-weight: 400;
+}
+
+/* Medium */
+.jetbrains-mono-medium {
+  font-family: 'JetBrains Mono';
+  font-weight: 500;
+}
+
+/* Semi Bold */
+.jetbrains-mono-semi-bold {
+  font-family: 'JetBrains Mono';
+  font-weight: 600;
+}
+
+/* Bold */
+.jetbrains-mono-bold {
+  font-family: 'JetBrains Mono';
+  font-weight: 700;
+}
+
+/* Extra Bold */
+.jetbrains-mono-extra-bold {
+  font-family: 'JetBrains Mono';
+  font-weight: 800;
+}
+
+/* Black */
+.jetbrains-mono-black {
+  font-family: 'JetBrains Mono';
+  font-weight: 900;
+}
