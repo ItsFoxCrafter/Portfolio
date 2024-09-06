@@ -230,6 +230,7 @@ body {
 #welcomeSection h2 {
   width: 200px;
   padding: 10px;
+  border-radius: 10px;
   margin-bottom: 0px;
   animation-name: nameHighlight;
   animation-duration: 1s;
